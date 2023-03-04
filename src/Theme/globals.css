@@ -1,0 +1,78 @@
+@import url('https://rsms.me/inter/inter.css');
+
+:root {
+	--font-inter: 'Inter var', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+	:root {
+		--font-inter: 'Inter var', sans-serif;
+	}
+}
+
+
+html {
+	font-family: var(--font-inter);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+ 
+
+* {
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+		font-size: 0.875rem; 
+		min-height: 120% !important;
+		background: #111927 !important; 
+		background-color: #111927 !important;
+		background-image: 
+			radial-gradient(at 47% 33%, hsl(197.14, 88%, 13%) 0, transparent 59%), 
+			radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%)  !important;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+	color: inherit;
+}
+
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
