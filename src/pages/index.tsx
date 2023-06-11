@@ -10,7 +10,7 @@ export async function getStaticProps() {
 
 export default function Aggregator(props) {
 	return (
-		<Layout title={`Arbinium`} defaultSEO>
+		<Layout title={`OxJarvis`} defaultSEO>
 			<ConnectButton />
 			<AggregatorContainer tokenlist={props.tokenlist} />
 		</Layout>

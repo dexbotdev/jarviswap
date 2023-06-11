@@ -708,10 +708,10 @@ export function AggregatorContainer({ tokenlist }) {
 	return (
 		<Wrapper>
 			<img
-			src="logo-dexfin.png"
+			src="Logo.png"
 			style={{
-				width:"100px",
-				height:"60%",
+				width:"140px",
+				height:"70%",
 			}} 
 			alt=""
 			/>
