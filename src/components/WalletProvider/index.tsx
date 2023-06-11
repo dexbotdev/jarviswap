@@ -8,7 +8,7 @@ import { allChains } from './chains';
 
 const { provider, chains } = configureChains(
 	[
-		chain.arbitrum 
+		chain.mainnet
 	],
 	[
 		jsonRpcProvider({
@@ -25,7 +25,7 @@ const Provider = styled.div`
 `;
 
 const { connectors } = getDefaultWallets({
-	appName: 'Arbinium',
+	appName: 'EthScanner',
 	chains
 });
 

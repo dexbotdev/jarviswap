@@ -12,7 +12,7 @@ const tokensToRemove = {
 };
 
 const oneInchChains = { 
-	arbitrum: 42161, 
+	ethereum: 1, 
 };
  
 export async function getTokenList() {
